@@ -78,13 +78,48 @@ Get a compact status of your rep
 
 How do you get git to ignore files?
 
-> add the to a `.gitignore` file
+> add them to a `.gitignore` file
 
 ---
 
-How are `.gitignore` files applied by git?
+What files are rules in `.gitignore` applied to by git?
 
 > They are applied to the directory they are in recursively 
 
 ---
 
+Can you have multiple `.gitignore` files in a repo?
+
+> Yes, they are applied to the directory they are in recursively 
+
+---
+
+What kind of pattern matching to `.gitignore` files use?
+
+> Glob patterns
+
+---
+
+Write rules in a `.gitignore` file that ignore all `.a` files except
+`lib.a`
+
+>     *.a
+>     !lib.a
+
+---
+
+**TODO:** more gitignore questions... 
+
+### Viewing Your Staged and Unstaged Changes
+
+## Viewing the Commit History
+
+## Undoing Things
+
+## Working with Remotes
+
+## Tagging
+
+## Git Aliases
+
+## Summary
