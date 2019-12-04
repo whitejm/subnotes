@@ -217,6 +217,11 @@ What 3 commands is `git mv README README.md` equivalent to?
 
 ## Viewing the Commit History
 
+---
+
+display one line graph history of repo with tag info
+
+> `git log --graph --pretty=oneline --all --decorate`
 
 ## Undoing Things
 
