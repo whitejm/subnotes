@@ -54,10 +54,10 @@ Create a new branch called `mydev` and switch to it with one command
 
 ---
 
-You've just commmited to branch `dev1` and want to merger it into `master` (2 commands)
+You've just commmited to branch `dev1` and want to merge it into `master` (2 commands)
 
 > `git checkout master`  
-> `git merger dev1`
+> `git merge dev1`
 
 ---
 
@@ -77,13 +77,13 @@ Delete branch `dev234`
 
 ---
 
-Under what conditions does git merger create a new snapshot/commit?
+Under what conditions does git merge create a new snapshot/commit?
 
 > When the two branches being merged have diverged history
 
 ---
 
-Does a git merger always create a new commit?
+Does a git merge always create a new commit?
 
 > No, only when the branches being merged have a "diverged" history.
 > In other words, when the they both have commits that the other does not.
@@ -102,7 +102,7 @@ When do merge conflicts happen?
 
 ---
 
-Your merger fails with conflicts. What is the command to get more information 
+Your merge fails with conflicts. What is the command to get more information 
 about the files involved with the conflict?
 
 > `git status`
