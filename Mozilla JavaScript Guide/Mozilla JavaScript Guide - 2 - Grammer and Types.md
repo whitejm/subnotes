@@ -77,10 +77,10 @@ Two main ways of declaring variables in JavaScript
 
 ---
 
-Can you have undiclared variables in JavaScript?
+Can you have undeclared variables in JavaScript?
 
-> Yes, ex. `x = 42` will create an *undiclared global variable* (as long as `x` wasn't declared earlier in the same scope), 
-> but use of *undiclared global variable* is strongly discouraged and will result in a strict JavaScript warning.
+> Yes, ex. `x = 42` will create an *undeclared global variable* (as long as `x` wasn't declared earlier in the same scope), 
+> but use of *undeclared global variable* is strongly discouraged and will result in a strict JavaScript warning.
 
 ---
 
@@ -295,9 +295,9 @@ No
 List the 8 data types in JavaScript
 
 > - Seven data types that are primitives:
->   - Boolean. true and false.
->   - null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.
->   - undefined. A top-level property whose value is not defined.
+>   - Boolean. `true` and `false`.
+>   - `null`. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.
+>   - `undefined`. A top-level property whose value is not defined.
 >   - Number. An integer or floating point number. For example: 42 or 3.14159.
 >   - BigInt. An integer with arbitrary precision. For example: 9007199254740992n.
 >   - String. A sequence of characters that represent a text value. For example: "Howdy"
@@ -363,7 +363,7 @@ What operator in JavaScript can be used to convert a string to a number?
 
 > the `+` (unary plus) operator
 > ```js
-> `+'5' - +'5'; // 0`
+> +'5' - +'5'; // 0
 > ```
 
 ---
@@ -375,6 +375,7 @@ What operator in JavaScript can be used to convert a string to a number?
 What are literals in JavaScript?
 
 > Literals represent values in JavaScript. They are fixed values, not variables, that you literally provide in your script.
+> Examples: `5`, `-1.33`, `true`, `false`,  `"This is a string litereal"`
 
 ---
 
